@@ -1,10 +1,6 @@
-# CSNet-Pytorch
+# NL-CSNet-Pytorch
 
-Pytorch code for paper 
-
-* "Deep Networks for Compressed Image Sensing" ICME2017
-
-* "Image Compressed Sensing Using Convolutional Neural Network" TIP2019
+Pytorch code for paper "Image Compressed Sensing Using Non-local Neural Network" TMM 2021.
 
 ## Requirements and Dependencies
 
