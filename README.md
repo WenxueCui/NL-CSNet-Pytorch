@@ -36,8 +36,8 @@ Pytorch code for paper "Image Compressed Sensing Using Non-local Neural Network"
 ## CSNet results
 ### Subjective results
 
-![image](https://github.com/WenxueCui/CSNet-Pytorch/raw/master/images/results1.jpg)
-![image](https://github.com/WenxueCui/CSNet-Pytorch/raw/master/images/results2.jpg)
+![image](https://github.com/WenxueCui/NL-CSNet-Pytorch/raw/master/images/results1.jpg)
+![image](https://github.com/WenxueCui/NL-CSNet-Pytorch/raw/master/images/results2.jpg)
 
 ### Objective results
 ![image](https://github.com/WenxueCui/CSNet-Pytorch/raw/master/images/table.jpg)
