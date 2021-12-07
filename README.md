@@ -4,7 +4,7 @@ Pytorch code for paper "Image Compressed Sensing Using Non-local Neural Network"
 
 ## Framework
 
-![image](https://github.com/WenxueCui/NL-CSNet-Pytorch/raw/master/images/framework.jpg)
+![image](https://github.com/WenxueCui/NL-CSNet-Pytorch/blob/master/images/framework.jpg)
 
 ## Requirements and Dependencies
 
