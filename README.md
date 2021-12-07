@@ -2,6 +2,10 @@
 
 Pytorch code for paper "Image Compressed Sensing Using Non-local Neural Network" TMM 2021. Note: this repo only shows the strategy of plugging the Non-local module (with non-local coupling loss constraint) into a simple CNN-based CS network (in the measurement domain and feature domain). For more details of the NL-CSNet atchitecture, please refer to the paper.
 
+## Framework
+
+![image](https://github.com/WenxueCui/NL-CSNet-Pytorch/raw/master/images/framework.jpg)
+
 ## Requirements and Dependencies
 
 * Ubuntu 16.04 CUDA 10.0
