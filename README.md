@@ -11,7 +11,7 @@ Pytorch code for paper "Image Compressed Sensing Using Non-local Neural Network"
 
 ## How to Run
 
-### Training CSNet
+### Training NL-CSNet
 * Preparing the dataset for training
 
 * Editing the path of training data in file `train.py`.
@@ -20,12 +20,12 @@ Pytorch code for paper "Image Compressed Sensing Using Non-local Neural Network"
 
 ```python train.py --sub_rate=0.1 --block_size=32```
 
-### Testing CSNet
+### Testing NL-CSNet
 * Preparing the dataset for testing
 
 * Editing the path of trained model in file `test.py`.
 
-* For CSNet testing in terms of subrate=0.1:
+* For NL-CSNet testing in terms of subrate=0.1:
 
 ```python test.py --cuda --sub_rate=0.1 --block_size=32```
 
