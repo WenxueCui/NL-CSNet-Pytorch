@@ -1,6 +1,6 @@
 # NL-CSNet-Pytorch
 
-Pytorch code for paper "Image Compressed Sensing Using Non-local Neural Network" TMM 2021.
+Pytorch code for paper "Image Compressed Sensing Using Non-local Neural Network" TMM 2021. Note: this repo only shows the strategy of plugging the Non-local module (with non-local coupling loss constraint) into a simple CNN-based CS network (in the measurement domain and feature domain). For more details of the NL-CSNet atchitecture, please refer to the paper.
 
 ## Requirements and Dependencies
 
@@ -9,13 +9,6 @@ Pytorch code for paper "Image Compressed Sensing Using Non-local Neural Network"
 * Pytorch 1.1.0   
 * Torchvision 0.2.2
 
-## Details of Implementations
-
-In our code, two model version are included:
-
-* simple version of CSNet (Similar with paper ICME2017)
-* Enhanced version of CSNet (local skip connection + global skip connection + resudial learning)
-
 ## How to Run
 
 ### Training CSNet
@@ -23,22 +16,18 @@ In our code, two model version are included:
 
 * Editing the path of training data in file `train.py`.
 
-* For CSNet training in terms of subrate=0.1:
+* For NL-CSNet training in terms of subrate=0.1:
 
 ```python train.py --sub_rate=0.1 --block_size=32```
 
 ### Testing CSNet
 * Preparing the dataset for testing
 
-* Editing the path of trained model in file `test.py` and `test_new.py`.
+* Editing the path of trained model in file `test.py`.
 
-* For CSNet testing in terms of subrate=0.1:  (**ps: For this testing code, there is a big gap compared with the result in the publised paper. And I am confused about it. If you know the reason, please let me know. Thanks very much!**)
+* For CSNet testing in terms of subrate=0.1:
 
-```python test.py --sub_rate=0.1 --block_size=32```
-
-* For CSNet testing (new testing code) in terms of subrate=0.1:
-
-```python test_new.py --cuda --sub_rate=0.1 --block_size=32```
+```python test.py --cuda --sub_rate=0.1 --block_size=32```
 
 ## CSNet results
 ### Subjective results
