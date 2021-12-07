@@ -33,7 +33,7 @@ Pytorch code for paper "Image Compressed Sensing Using Non-local Neural Network"
 
 ```python test.py --cuda --sub_rate=0.1 --block_size=32```
 
-## CSNet results
+## NL-CSNet results
 ### Subjective results
 
 ![image](https://github.com/WenxueCui/CSNet-Pytorch/raw/master/images/results1.jpg)
