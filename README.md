@@ -50,5 +50,5 @@ Pytorch code for paper "Image Compressed Sensing Using Non-local Neural Network"
 
 * For training data, you can choose any natural image dataset.
 * If you like this repo, Star or Fork to support my work. Thank you.
-* If you have any problem for this code, please email: wenxuecui@stu.hit.edu.cn
+* If you have any problem for this code, please email: wxcui@hit.edu.cn
 
